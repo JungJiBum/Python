@@ -4,9 +4,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
 
-link = "http://10.12.1.27/pa/login"
-log_id = "tfo-admin"
-log_pw = 123456
+link = #"웹주소"
+log_id = #"계정"
+log_pw = #비번
+
 #옵션 세팅
 chrome_options = Options()
 chrome_options.add_argument('--headless')
