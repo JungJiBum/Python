@@ -1,27 +1,28 @@
-import time
 from selenium import webdriver
 
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.keys import Keys
+opt = webdriver.ChromeOptions()
+opt.add_experimental_option("excludeSwitches", ["enable-logging"])
 
-options = webdriver.ChromeOptions()
-options.add_experimental_option("excludeSwitches",["enable-logging"])
-link = "https://www.youtube.com"
+driver = webdriver.Chrome(
+    'Inflearn_Python_Recipe/selenium/chromedriver', options=opt)
+driver.get('http://zzzscore.com/1to50')
+driver.implicitly_wait(300)
 
-# browser = webdriver.Chrome('Inflearn_Python_Recipe/selenium/chromedriver',options=options)
-browser = webdriver.Chrome('Inflearn_Python_Recipe/selenium/chromedriver',options=options)
-browser.get(url = link)
+# 전역 변수
+# 현재 찾아야 될 숫자
+num = 1
 
-time.sleep(5)
+def clickBtn():
+    global num
+    btns = driver.find_elements_by_xpath('//*[@id="grid"]/div[*]')  # div[*]을 통해 패턴을 인식
 
-search = browser.find_element_by_xpath('//*[@id="search"]')
-
-# search = browser.find_element(By.CSS_SELECTOR, "#search")
-# search = driver.find_elements(by=By.XPATH, value='//*[@id="search"]')
-search.send_keys("반원 코딩")
-time.sleep(3)
-
-search.send_keys(Keys.ENTER)
-
+    for btn in btns:
+        print(btn.text, end='\t')
+        if btn.text == str(num):
+            btn.click()
+            print(True)
+            num+=1
+            return
+# 메인코드
+while num <=50:
+    clickBtn()
