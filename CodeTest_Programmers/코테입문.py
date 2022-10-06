@@ -1,3 +1,31 @@
+ls1 = [0,1,2,3,4,5]
+ls1[1:3] = [11,22,33]
+print(ls1)
+
+ls2=[0,1,2,3,4,5]
+del ls2[1:3]
+print(ls2)
+# s = [1,2,3,4,5]
+# s.sort(reverse=True)
+
+# a1,a2 = s[:2]
+# print(a1,a2)
+# print(a1*a2)
+'''
+최빈값
+'''
+
+'''
+분수 표현
+from fractions import Fraction
+
+Fraction(3,1)
+-> 3/1을 분수로 표현한다
+t = Fraction(12,8)
+-> 12/8을 3/2로 표현해준다.
+print(t.numerator) -> 분자 -> 3
+print(t.denominator) -> 분모 -> 2
+'''
 
 # n = 10
 # def solution(n):
@@ -77,7 +105,7 @@
 # print(ans/len(numbers))
 
 
-my_string="hello"
+# my_string = "hello"
 
-for i in my_string:
-    print(i)
+# for i in my_string:
+#     print(i)
