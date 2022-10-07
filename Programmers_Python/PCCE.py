@@ -20,17 +20,26 @@
 # print(count_list)
 
 # PCCE 모의고사 8
-ls = [1, 2, 6, 7, 4, 3]
-answer=[]
-count_even=0
+# ls = [1, 2, 6, 7, 4, 3]
+# answer=[]
+# count_even=0
 
-for num in ls:
-    # print(num)
-    if num % 2 == 0:
-        answer.append("even")
-        count_even += 1
+# for num in ls:
+#     # print(num)
+#     if num % 2 == 0:
+#         answer.append("even")
+#         count_even += 1
 
-        if count_even >= 3:
-            break
-    else:
-        answer.append("odd")
+#         if count_even >= 3:
+#             break
+#     else:
+#         answer.append("odd")
+
+# PCCE 모의고사 9
+num_list = [2, 3, 4, 5, 6, 7, 8, 9]
+
+
+def solution(num_list):
+    answer = []
+    return answer
+
