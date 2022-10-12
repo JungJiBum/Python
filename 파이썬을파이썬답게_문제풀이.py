@@ -1,9 +1,9 @@
 myls = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-# print("기본 : ",myls)
-# print("언패킹 : ",*myls)
-# print("기본 맵 함수 : ",list(map(list,zip(myls))))
-# answer = list(map(list, zip(*myls)))
-# print("언패킹 맵 함수 : ",answer)
+print("기본 : ",myls)
+print("언패킹 : ",*myls)
+print("기본 맵 함수 : ",list(map(list,zip(myls))))
+answer = list(map(list, zip(*myls)))
+print("언패킹 맵 함수 : ",answer)
 
 # ls=[[], [], []]
 # for i in range(len(myls)):
