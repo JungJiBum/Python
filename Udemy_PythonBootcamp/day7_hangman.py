@@ -1,6 +1,6 @@
 import random
-from hangman_words import word_list
-from hangman_art import logo, stages
+from day7_hangman_words import word_list
+from day7_hangman_art import logo, stages
 
 word_list = word_list
 
