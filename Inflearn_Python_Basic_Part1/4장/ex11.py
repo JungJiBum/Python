@@ -8,8 +8,8 @@ length = len(str_1)
 
 if length % 2 == 1:
     ch = str_1[length//2]
-    print("중앙에 있는 한 글자는",ch,"이 다.")
+    print("중앙에 있는 한 글자는",ch,"이다.")
 else:
     ch1 = str_1[length//2 - 1]
     ch2 = str_1[length//2]
-    print(f"중앙에 있는 두 글자는 {ch1}{ch2}")
+    print(f"중앙에 있는 두 글자는 {ch1}{ch2} 이다.")
