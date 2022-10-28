@@ -62,3 +62,9 @@
 
 # for i in range(5):
 #     print("*"*i)
+
+# a = ["*"*i for i in range(5)]
+# print(a,sep='\n')
+
+# for i in range(5):
+#     print("*"*i)
