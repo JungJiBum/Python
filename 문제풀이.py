@@ -37,12 +37,28 @@
 # print(15//7)  # 정수 몫 2
 
 
-def sol(n):
-    ans = 0
-    if n % 7 != 0:
-        return (n//7)+ans + 1
-    else:
-        return int((n/7))
+# def sol(n):
+#     ans = 0
+#     if n % 7 != 0:
+#         return (n//7)+ans + 1
+#     else:
+#         return int((n/7))
 
 
-print(sol(7))
+# print(sol(7))
+
+
+# dict ={
+#     "a":1,
+#     "b":{1:['a','b'],2:['ste']},
+#     "c":3,
+# }
+# print(dict['b'][2][0])
+
+# i=0
+# while i<=5:
+#     print("*"*i)
+#     i +=1
+
+# for i in range(5):
+#     print("*"*i)
