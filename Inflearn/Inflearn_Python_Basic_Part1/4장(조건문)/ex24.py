@@ -11,6 +11,8 @@ while True:
         break
     elif user_num > rand_num:
         print("입력한 숫자가 큽니다.")
+        # 파이썬에서는 ++, -- 이런 증감 연산자는 없다.
+        # 복합대입 연산자를 사용하도록 하자.
         cnt+=1
     else:
         print("입력한 숫자가 작습니다.")
