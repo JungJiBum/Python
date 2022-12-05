@@ -14,3 +14,11 @@ search.send_keys('반원코딩')
 time.sleep(1)
 
 search.send_keys(Keys.ENTER)
+
+
+# from selenium import webdriver
+# import time
+# from selenium.webdriver.common.keys import Keys
+
+# driver = webdriver.Chrome(크롬드라이버 경로)
+# driver.get(링크)
