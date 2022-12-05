@@ -14,3 +14,5 @@ fig_volume = px.line(df, x='Date', y=['Volume'], title='거래량')
 
 st.plotly_chart(fig_close)
 st.plotly_chart(fig_volume)
+
+# 커맨드로 실행 streamlit run [파일명].py

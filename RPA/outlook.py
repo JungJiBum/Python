@@ -28,7 +28,7 @@ def send_mail(to,subject,content,atch=[]):
 
 if __name__ =="__main__":
 
-    to = "dlflsp153@tfo.co.kr"
+    to = "test@test.co.kr"
     subject = "python to outlook TEST"
     content = """
     <h1>테스트 '메일' 입니다.</h1>

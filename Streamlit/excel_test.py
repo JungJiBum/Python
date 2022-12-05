@@ -1,7 +1,7 @@
 # https://velog.io/@anjaekk/Python-Pandas-Streamlit%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%95%98%EA%B8%B0
 import streamlit as st
 import pandas as pd
-
+# 커맨드로 실행 streamlit run [파일명].py
 st.title("2021 서울 교통공가 시자철 월별 하차 인원")        #타이틀 지정
 
 df = pd.read_csv("서울교통공사.csv",encoding='cp949')      #파일 불러오기
