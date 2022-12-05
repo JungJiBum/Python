@@ -26,7 +26,7 @@ driver.find_element_by_name("password").send_keys(log_pw)
 driver.find_element_by_xpath("/html/body/div[3]/md-content/form/div[1]/button").click()
 # time.sleep(1)
 # 경로 이동
-driver.get("http://10.12.1.27/#/dashboard/U1lV")
+driver.get('링크')
 # time.sleep(1)
 
 

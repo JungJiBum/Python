@@ -16,7 +16,7 @@ url = "http://www.youtube.com"
 driver = webdriver.Chrome("python\crawling\chromedriver.exe",options=chrome_options)
 driver.get(url);
 
-# 뷰티풀수프로 크롤링 수행
+# beautifulSoup로 크롤링 수행
 html = driver.page_source
 soup = bs(html, 'html.parser'); # parser를 이용하여 parsing 진행
 aa = soup.select('#thumbnail') # 해당 유투브 url 링크 정보 입니다.
