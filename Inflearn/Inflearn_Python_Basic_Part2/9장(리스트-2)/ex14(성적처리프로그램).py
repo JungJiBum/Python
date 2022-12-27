@@ -53,6 +53,3 @@ for i in range(len(score)):
 avg /= len(score)
 print("-------------------------------------------")
 print("총점\t%d\t%d\t%d\t%d\t%.2f" % (korea,english,math,totalSum,avg))
-# print("총점\t%d\t%d\t%d\t%d\t.2f " %(korea,english,math,totalSum,avg))
-
-
