@@ -5,11 +5,11 @@
 리스트는 대괄호 [] 요소를 감싸지만 튜플은 () 요소를 감싼다.
 '''
 
-colors = ("red","blue","yellow")
+colors = ("red", "blue", "yellow")
 print(colors)
 print(type(colors))
 
-numbers = (1,2,3,4,5)
+numbers = (1, 2, 3, 4, 5)
 print(numbers)
 
 # 튜플로 리스트와 마찬가지로 여러가지 자료형을 섞어서 생성 할 수 있다.
@@ -27,7 +27,7 @@ tuple3 = (10)
 print(tuple3, type(tuple3))
 print(tuple2)
 
-li = [1,2,3,4,5]
+li = [1, 2, 3, 4, 5]
 tuple4 = tuple(li)
 # 리스트를 내장함수인 tuple()로 tuple로 만들수가 있다.
 print(li)
@@ -43,7 +43,7 @@ print("t2의 주소 : ", id(t2))
 print("t3의 주소 : ", id(t3))
 print("t3[0]의 주소 : ", id(t3[0]))
 print("t3[1]의 주소 : ", id(t3[1]))
-print(t2,type(t2))
+print(t2, type(t2))
 
 t4 = (1, 2.2, 3, "안녕")
 t5 = (1, 2.2, 3)
