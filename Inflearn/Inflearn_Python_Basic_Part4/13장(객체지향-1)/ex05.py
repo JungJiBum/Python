@@ -36,6 +36,8 @@ class Circle:
 if __name__ == "__main__":
     circle = Circle(10)
     print("원의 반지름 : ", circle.getRadius())
+    print("원의 반지름 : ", circle.setRadius(20)) # setter()메서드 사용해서 radius값 바꿔보기
+    print("원의 반지름 : ", circle.getRadius())
     print("원의 넓이 : ", round(circle.calcArea(),2))
     print("원의 둘레 : ", round(circle.calcCircum(),2))
 
