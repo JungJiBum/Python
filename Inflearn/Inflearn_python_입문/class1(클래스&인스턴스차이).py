@@ -101,19 +101,19 @@ user2 = Warehouse("Cho")
 
 print(Warehouse.stock_num)
 # Warehouse.stock_num=50
-print(user1.name)
-print(user2.name)
-print(user1.__dict__)
-print(user2.__dict__)
-print('before',Warehouse.__dict__)
+# print(user1.name)
+# print(user2.name)
+# print(user1.__dict__)
+# print(user2.__dict__)
+# print('before',Warehouse.__dict__)
 '''
 before {'__module__': '__main__', 'stock_num': 2, '__init__': <function Warehouse.__init__ at 0x000001243CD15D80>, '__del__': <function Warehouse.__del__ at 0x000001243CD15E10>,
 '__dict__': <attribute '__dict__' of 'Warehouse' objects>, '__weakref__': <attribute '__weakref__' of 'Warehouse' objects>, '__doc__': None}
 '''
-print(user1.stock_num)
+# print(user1.stock_num)
 
 del user1
-print('after',Warehouse.__dict__)
+# print('after',Warehouse.__dict__)
 '''
 after {'__module__': '__main__', 'stock_num': 1, '__init__': <function Warehouse.__init__ at 0x000001243CD15D80>, '__del__': <function Warehouse.__del__ at 0x000001243CD15E10>,
 '__dict__': <attribute '__dict__' of 'Warehouse' objects>, '__weakref__': <attribute '__weakref__' of 'Warehouse' objects>, '__doc__': None}
