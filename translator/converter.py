@@ -1,13 +1,17 @@
-import tkinter
+import tkinter as tk
+import tkinter as ttk
 
-window = tkinter.Tk()
+window = tk.Tk()
 
 window.title("Language Translator")
 window.geometry("640x400+100+100")
 window.resizable(False, False)
 
-text = "안녕하세요"
-label = tkinter.Label(window, text="원문을 입력하세요.")
-# label = tkinter.Label(window, textvariable="test")
-label.pack()
+
+text_var = tk.StringVar()
+text_var.set("test")
+entry = ttk.Entry(window, textvariable=text_var)
+
+entry.pack()
+
 window.mainloop()
