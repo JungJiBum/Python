@@ -1,3 +1,30 @@
-# 특정 디렉토리 기준 이하 파일들 제외
+# Local source archives
 TFO/
 python1.0_source/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local binaries and drivers
+chromedriver.exe
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
